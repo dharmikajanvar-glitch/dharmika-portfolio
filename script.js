@@ -43,7 +43,7 @@ document.addEventListener('click', event => {
 
 // Typewriter cycles only between factual focus areas from the supplied résumé.
 const typedRole = document.querySelector('#typed-role');
-const roleOptions = ['Embedded systems', 'Python automation', 'Robotics & integration', 'Digital operations'];
+const roleOptions = ['Embedded systems', 'Python automation', 'SOFTWARE DEVELOPMENT', 'IT OPERATIONS', 'ROBOTICS & AUTOMATION','Digital operations';
 if (typedRole && !reducedMotion) {
   let roleIndex = 0;
   let charIndex = roleOptions[0].length;
